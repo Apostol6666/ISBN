@@ -16,7 +16,7 @@ cin >> string;
 
  
 while (*(string + i) != '\0')  {
-	if (*(string + i) == '-') 
+	if ((*(string + i) == '-')||( *(string + i) == ' '))
 		i++;
 	
 	if (*(string + i) == 'X') { 
